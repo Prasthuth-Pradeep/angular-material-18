@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { MatButton, MatAnchor, MatFabButton, MatFabAnchor, MatMiniFabButton, MatMiniFabAnchor, MatIconButton, MatIconAnchor } from '@angular/material/button';
 import {MatCheckbox} from '@angular/material/checkbox';
+import { MatDividerModule } from '@angular/material/divider';
 import {MatIcon} from '@angular/material/icon';
 import {MatTooltip} from '@angular/material/tooltip';
 
@@ -21,6 +22,7 @@ import {MatTooltip} from '@angular/material/tooltip';
     MatTooltip,
     MatCheckbox,
     FormsModule,
+    MatDividerModule
   ],
   templateUrl: './buttons.component.html',
   styleUrl: './buttons.component.scss'
