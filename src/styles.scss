@@ -36,7 +36,9 @@ body {
   @include mat.system-level-typography($my-app-theme);
   height: 100%;
 }
+
 body {
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
+  background-color: mat.get-theme-color($my-app-theme, primary, 98) !important;
 }
